@@ -1,0 +1,2 @@
+a0aa7cdb4e642f4de3a21ef8270caf920e8ff055d44829f66c8f4afe18f79e50  Sakura-VTuber-Setup-Windows-x64.exe
+5ff90c15fc1bb050fd974e55f6410f0ff26a48710726959d6c6e06a54ef28569  Sakura-Companion-Setup-Windows-x64.exe
