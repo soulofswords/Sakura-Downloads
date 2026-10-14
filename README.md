@@ -4,7 +4,7 @@ Sakura is under development by **SoulOfSwords**. This public repository contains
 
 ## Download
 
-Get the installers from [the latest release](https://github.com/soulofswords/Sakura-Downloads/releases/latest).
+Get the installers from [the releases page](https://github.com/soulofswords/Sakura-Downloads/releases).
 
 - **Sakura VTuber:** Live2D, PMX and VRM avatars, camera tracking, expressions, model customization and phone controls.
 - **Sakura Companion:** companion conversations, Gemini or optional local AI, offline Kokoro speech, and VTuber features.
