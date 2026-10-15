@@ -2,13 +2,17 @@
 
 Sakura is under development by **SoulOfSwords**. This public repository contains release information and downloads, not application source code.
 
+## Latest update — 15 October 2026
+
+PC cloud model discovery and API generation testing; guided phone-local setup and complete-folder transfer; Live2D pinch zoom; visible button/send states; Male/Female phone voices; and smaller protected Windows installers. See [release notes](RELEASE-NOTES.md) for details and testing limits.
+
 ## Download
 
 Get the installers from [the releases page](https://github.com/soulofswords/Sakura-Downloads/releases).
 
 - **Sakura VTuber:** Live2D, PMX and VRM avatars, camera tracking, expressions, model customization and phone controls.
 - **Sakura Companion:** companion conversations, Gemini or optional local AI, offline Kokoro speech, and VTuber features.
-- **Sakura Mobile / Sakura VTuber Mobile:** Android 9+ companion and tracking controllers. Keep your installed product name; install its matching APK as an update. Phone and PC must share a trusted home network.
+- **Sakura Mobile / Sakura VTuber Mobile:** Android 9+ companion and tracking controllers. Keep your installed product name; install its matching APK as an update. Use the same home network for PC controls or one-time model transfer. Sakura Mobile Local mode then renders the saved model and uses your API key for online chat away from home, without a connected PC.
 
 The [15 October 2026 beta](https://github.com/soulofswords/Sakura-Downloads/releases/tag/beta-2026-10-15) includes matching Windows installers and Android APKs. See [release notes](RELEASE-NOTES.md) for changes and testing limits.
 
@@ -30,7 +34,7 @@ The Windows installers contain a compiled native application core and obfuscated
 
 Publisher branding is SoulOfSwords. These testing installers are not Authenticode-signed; publisher metadata is not a signing certificate.
 
-Android APKs use the existing local testing signing key and package IDs. Physical phone camera/network behavior still requires testing on your device. Camera viewing and face tracking are separate, optional controls. In Companion camera mode, selected images go to the PC's chosen AI provider; Local mode keeps image inference local. Screen viewing makes sampled vision requests, including silent timeline observations while enabled; cloud requests can incur provider charges.
+Android APKs use the existing local testing signing key and package IDs. Physical phone camera/network behavior still requires testing on your device. Camera viewing and face tracking are separate, optional controls. In Companion camera mode, selected images go to the PC's chosen AI provider; PC local Qwen mode keeps image inference local. Phone Local mode uses online provider replies and does not currently inspect the phone screen or camera. Screen viewing makes sampled vision requests, including silent timeline observations while enabled; cloud requests can incur provider charges.
 
 ## Feedback
 
