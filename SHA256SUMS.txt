@@ -1,2 +1,4 @@
-a0aa7cdb4e642f4de3a21ef8270caf920e8ff055d44829f66c8f4afe18f79e50  Sakura-VTuber-Setup-Windows-x64.exe
-5ff90c15fc1bb050fd974e55f6410f0ff26a48710726959d6c6e06a54ef28569  Sakura-Companion-Setup-Windows-x64.exe
+998ad7d9070615e2065441a0dbf1f702739f8c7f20bd6293878e80fb0eef9eb1  Sakura-Companion-Setup-Windows-x64.exe
+6e095d2b50c8090d2f6ba06ca904c376531caebec0b45b57a591f6d441a4ef3a  Sakura-VTuber-Setup-Windows-x64.exe
+77df025ebcd58631d73c3c51d2f80f83083539acc406ff0ba9d9fd0a39a7c503  Sakura-Mobile-Android.apk
+0be026bcb0b133e8123873002991979caabcbcc54dd4689ec0b84d31940c0b4d  Sakura-VTuber-Mobile-Android.apk
