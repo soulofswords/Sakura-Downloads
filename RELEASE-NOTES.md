@@ -1,6 +1,6 @@
-# Sakura Windows Beta — 21 October 2026
+# Sakura Windows + Android Beta — 21 October 2026
 
-New Windows x64 installers for **Sakura Companion** and **Sakura VTuber**. This is a new dated release; the previous release remains available. This release updates the PC applications only. It does not include a newly built Android APK or macOS installer.
+New Windows x64 installers for **Sakura Companion** and **Sakura VTuber**, plus **Sakura Mobile 0.3.17** for Android. This is a new dated release; the previous release remains available. No new macOS installer is included.
 
 ## Rendering, model controls and appearance
 
@@ -24,6 +24,18 @@ New Windows x64 installers for **Sakura Companion** and **Sakura VTuber**. This 
 - Improved command routing for app opening, clocks, timers, alarms, current weather and location/topic news. News speech avoids reading source URLs and raw publication metadata aloud; source details remain available in text.
 - While screen/game computer-audio context is enabled, automatic microphone commands require the configured wake phrase with the command. Video narration remains observed context for reactions. The explicit microphone button retains its existing behavior.
 - Computer-audio prompts explicitly distinguish video/narrator speech from a user request.
+
+## Sakura Mobile 0.3.17
+
+- One app named **Sakura Mobile** combines the phone-local assistant, PC connection, expression controls and front/rear phone-camera tracking. No separate VTuber Mobile APK is built for this release.
+- Phone-local assistant uses your saved provider key and phone-stored PMX, VRM or Live2D model away from the PC. PC connection remains available for controls and complete-folder model transfer.
+- Full-screen model stage, red microphone on/off control, hamburger menu with non-overlapping layout, immediate Sir/Ma’am/no-title preference, touch feedback and Live2D pinch/pan controls.
+- Optional foreground location for current area, nearby restaurant lookup/Maps fallback, current weather and location/topic news. General/local news uses your saved city/state preference; explicit places override it. News speech keeps the bulletin date/time without reading raw URLs or publication metadata aloud.
+- Optional background wake phrase with stricter phrase confirmation and microphone/call/playback gating. The wake pack downloads only on request, with resumable downloads and visible progress/retry states.
+- Updated shared avatar renderer, including model-switch presentation and bounded simulation steps; included frame-cover styling and shared reaction/animation assets.
+- Version code 23, version 0.3.17; existing `app.sakura.mobile` package and signing certificate retained. Install over Sakura Mobile without uninstalling to keep stored models/settings. Users of the old separate Sakura VTuber Mobile package should use Sakura Mobile; Android will not merge data across those two package IDs.
+
+Validation: Java/R8 compilation, APK signature/archive checks, package/version/signer continuity, actual Java provider/location/wake/download rules, and packaged obfuscated WebView checks passed. WebView checks cover menu layouts, microphone/wake/call gating, settings, model transfer, PMX/VRM/Live2D rendering and actual two-finger Live2D zoom. Native bridges and provider replies were mocked in those interface tests; physical-device permissions, background operation, calls and LAN reconnect still need phone testing.
 
 ## Installation and verification
 
