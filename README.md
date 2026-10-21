@@ -2,9 +2,9 @@
 
 Sakura is under development by **SoulOfSwords**. This public repository contains release information and downloads, not application source code.
 
-## Latest update — 15 October 2026
+## Latest update — 21 October 2026
 
-PC cloud model discovery and API generation testing; guided phone-local setup and complete-folder transfer; Live2D pinch zoom; visible button/send states; Male/Female phone voices; and smaller protected Windows installers. See [release notes](RELEASE-NOTES.md) for details and testing limits.
+New Windows Companion and VTuber installers with frame-presentation safeguards, bounded physics updates, speech and greeting gestures, conversation grounding, Hindi recognition improvements, cleaner timer confirmations, and separation of video audio from automatic microphone commands. See [release notes](RELEASE-NOTES.md) for details and testing limits.
 
 ## Download
 
@@ -14,7 +14,7 @@ Get the installers from [the releases page](https://github.com/soulofswords/Saku
 - **Sakura Companion:** companion conversations, Gemini or optional local AI, offline Kokoro speech, and VTuber features.
 - **Sakura Mobile / Sakura VTuber Mobile:** Android 9+ companion and tracking controllers. Keep your installed product name; install its matching APK as an update. Use the same home network for PC controls or one-time model transfer. Sakura Mobile Local mode then renders the saved model and uses your API key for online chat away from home, without a connected PC.
 
-The [15 October 2026 beta](https://github.com/soulofswords/Sakura-Downloads/releases/tag/beta-2026-10-15) includes matching Windows installers and Android APKs. See [release notes](RELEASE-NOTES.md) for changes and testing limits.
+The latest [21 October 2026 Windows beta](https://github.com/soulofswords/Sakura-Downloads/releases/tag/windows-beta-2026-10-21) contains new Companion and VTuber installers. Android APKs remain available in the [15 October release](https://github.com/soulofswords/Sakura-Downloads/releases/tag/beta-2026-10-15); no new APK is included in this Windows update. See [release notes](RELEASE-NOTES.md) for changes and testing limits.
 
 Character models are **not bundled**. Import your own models and respect their creators' usage terms. Local AI models are optional downloads. Cloud AI requires your own provider key and internet access; ambiguous keys or custom endpoints require manual provider selection.
 
