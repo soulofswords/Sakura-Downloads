@@ -1,0 +1,3 @@
+95ee0358ee9c0efbe96154f9f004e4d52d74b79dc3dc1de3144455374f9e084b  Sakura-Companion-Setup-Windows-x64.exe
+2789263eb324a35db5e47f567c0730bea42ff00561d6b68a73ba23081947b1af  Sakura-VTuber-Setup-Windows-x64.exe
+52763bf8ad3c79b7b52474222fff4f4fb3200e6b60b6814b813d36e202c74546  Sakura-Mobile-Android-0.3.20.apk

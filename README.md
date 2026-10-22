@@ -2,9 +2,9 @@
 
 Sakura is under development by **SoulOfSwords**. This public repository contains release information and downloads, not application source code.
 
-## Latest update — 21 October 2026
+## Latest update — 22 October 2026
 
-New Windows Companion/VTuber installers and Sakura Mobile 0.3.17 with frame-presentation safeguards, bounded physics updates, speech and greeting gestures, conversation grounding, Hindi recognition improvements, cleaner timer confirmations, and separation of video audio from automatic microphone commands. See [release notes](RELEASE-NOTES.md) for details and testing limits.
+New Windows Companion/VTuber installers and Sakura Mobile 0.3.20. Companion chat now prepares confirmed Google Calendar events and keeps the event title separate from spoken scheduling instructions. Agent workspace, grounded answers, voice interruption, camera and model controls are updated. See [22 October release notes](RELEASE-NOTES-2026-10-22.md) for details and testing limits.
 
 ## Download
 
@@ -14,7 +14,7 @@ Get the installers from [the releases page](https://github.com/soulofswords/Saku
 - **Sakura Companion:** companion conversations, Gemini or optional local AI, offline Kokoro speech, and VTuber features.
 - **Sakura Mobile:** one Android 9+ app with phone-local assistant, PC companion controls, expression selection and phone-camera tracking. Install over the existing Sakura Mobile app as an update. Use the same home network for PC controls or one-time model transfer. Sakura Mobile Local mode then renders the saved model and uses your API key for online chat away from home, without a connected PC.
 
-The latest [21 October 2026 Windows + Android beta](https://github.com/soulofswords/Sakura-Downloads/releases/tag/windows-beta-2026-10-21) contains new Companion/VTuber installers and Sakura Mobile 0.3.17. The older separate VTuber Mobile product is merged into Sakura Mobile for new releases. See [release notes](RELEASE-NOTES.md) for changes and testing limits.
+The latest [22 October 2026 Windows + Android beta](https://github.com/soulofswords/Sakura-Downloads/releases/tag/windows-beta-2026-10-22) contains new Companion/VTuber installers and Sakura Mobile 0.3.20. The older separate VTuber Mobile product is merged into Sakura Mobile for new releases. See the [22 October release notes](RELEASE-NOTES-2026-10-22.md) and [previous release notes](RELEASE-NOTES.md) for changes and testing limits.
 
 Character models are **not bundled**. Import your own models and respect their creators' usage terms. Local AI models are optional downloads. Cloud AI requires your own provider key and internet access; ambiguous keys or custom endpoints require manual provider selection.
 
