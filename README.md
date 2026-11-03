@@ -2,16 +2,22 @@
 
 Sakura by **SoulOfSwords** supports PMX, VRM and Live2D avatars on Windows, with a companion Android app for phone tracking and controls.
 
-**Updated: 3 November 2026** · **Latest VTuber and Mobile release: 2.0**
+**Updated: 3 November 2026** · **Latest Companion, VTuber and Mobile release: 2.0**
 
 ## Download
 
+- [Sakura Companion 2.0 — Windows x64 installer](https://github.com/soulofswords/Sakura-Downloads/releases/download/v2.0/Sakura-Companion-Setup-Windows-x64.exe)
 - [Sakura VTuber 2.0 — Windows x64 installer](https://github.com/soulofswords/Sakura-Downloads/releases/download/v2.0/Sakura-VTuber-Setup-Windows-x64.exe)
 - [Sakura Mobile 2.0 — Android APK](https://github.com/soulofswords/Sakura-Downloads/releases/download/v2.0/Sakura-Mobile-Android-2.0.apk)
 - [2.0 release notes and checksums](https://github.com/soulofswords/Sakura-Downloads/releases/tag/v2.0)
-- [Sakura Companion — previous 1.0.2 release](https://github.com/soulofswords/Sakura-Downloads/releases/tag/v1.0.2). **This update does not replace the Companion installer.**
 
 ## What changed in 2.0
+
+- Companion installer now included: Companion chat, tracking mode and Agent workspace in one edition.
+- Voice & speech has optional enrolment for up to five locally encrypted speaker profiles, including Rename and Remove. Voice matching is experimental; it is not identity authentication.
+- Shared microphone controls, compact transparency shortcut, and return to the previous compact/full layout after Agent mode.
+- Manual localhost pages open inside the Agent Browser even after a task completes.
+- Wake-phrase setting is enabled for fresh Companion setups; the optional offline wake pack is still required. Existing saved preferences are respected.
 
 - PMX transparent-fragment depth handling, addressing clothing holes caused by invisible fragments hiding visible material.
 - Tracking/retargeting and cursor/model-control improvements.
