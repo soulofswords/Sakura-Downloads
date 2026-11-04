@@ -4,6 +4,12 @@ Updated 4 November 2026. Stable release; Companion now joins the existing VTuber
 
 ## Companion additions and fixes
 
+- Audited Windows rebuild: startup checks for games already running, including background games in recognised installation folders, before local-model warmup. It selects the game model (Qwen3-VL 2B by default), checks VRAM headroom, and uses the saved cloud fallback when enabled and available. Otherwise local AI pauses while the app remains open. The universal model preference is preserved.
+- Voice & speech → Recognised voices now has a persistent **Voice matching On/Off** switch. Turning it off keeps saved profiles and does not change the microphone or wake-phrase switches.
+- Teacher chat can select, inspect, pause/resume, cancel and confirm deletion of existing Agent tasks. Deletion removes task/history records, not workspace files. Task pages can be inspected with screenshots and used through reviewed click/fill/scroll/drag tools; servers must be running. Browser sessions are isolated, and private-network/secret-field restrictions remain in place.
+- Closed task pages hide stale screenshots and controls. Game settings/status now name the actual game profile.
+- Packaging excludes development-only probe/patch scripts, retains verification reports, and checks that sources do not change during the build. The refreshed Windows assets are extracted and checked before upload; user models, voices and owner sessions remain excluded.
+
 - Companion installer refreshed on 4 November: selecting Full access and running tasks under it no longer shows duplicate Windows confirmation dialogs. Full access remains session-only and keeps workspace validation.
 - Clean-checkout GitHub Actions packaging checks no longer require downloaded speech weights or compiled camera DLLs; actual installer builds still verify both.
 
@@ -21,6 +27,8 @@ PMX transparent-fragment depth fixes, tracking and model controls, Live2D compat
 
 ## Verification and limits
 
-Windows packages are checked by extraction, clean install/upgrade and packaged backend checks. Mobile passes Java compilation, R8 processing, APK signature verification and archive checks. The published checksums identify the exact downloads. A dependency scan found no known advisories in the scanned installed Python environment; this is not a guarantee of no vulnerabilities.
+Windows packages are checked by extraction, clean install/upgrade and packaged backend checks. This refresh retains the existing 2.0 Mobile APK without rebuilding Android. The published checksums identify the exact downloads. A dependency scan found no known advisories in the scanned installed Python environment; this is not a guarantee of no vulnerabilities.
+
+The Python audit run passed 1,860 tests with two skipped and 253 subtests. The Windows release gates additionally cover browser controls, PMX/Live2D rendering, phone permissions, microphone routing, approval handling and edition isolation.
 
 No personal avatars, RVC weights, API keys, owner Jio sessions, MCP connections or conversations are included. Windows installers are unsigned. Mobile keeps the existing testing signing identity for updates. Physical phone/camera and real-voice recognition still require testing on the user's hardware. No macOS installer is included. Companion source remains private. Weight-space programming is excluded from this update.

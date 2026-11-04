@@ -13,7 +13,8 @@ Sakura by **SoulOfSwords** supports PMX, VRM and Live2D avatars on Windows, with
 
 ## What changed in 2.0
 
-- 4 November Companion installer refresh removes duplicate Windows prompts in Full access.
+- 4 November audited installer refresh: game-first 2B startup with VRAM checks, a persistent Voice matching On/Off switch, and Companion Teacher task controls with reviewed task-webpage interaction.
+- Closed task webpages clear stale controls. Release packaging excludes development-only scripts and checks for source changes during the build. Both Windows installers are verified before replacing the 2.0 downloads.
 
 - Companion installer now included: Companion chat, tracking mode and Agent workspace in one edition.
 - Voice & speech has optional enrolment for up to five locally encrypted speaker profiles, including Rename and Remove. Voice matching is experimental; it is not identity authentication.
