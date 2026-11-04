@@ -2,7 +2,7 @@
 
 Sakura by **SoulOfSwords** supports PMX, VRM and Live2D avatars on Windows, with a companion Android app for phone tracking and controls.
 
-**Updated: 3 November 2026** · **Latest Companion, VTuber and Mobile release: 2.0**
+**Updated: 4 November 2026** · **Latest Companion, VTuber and Mobile release: 2.0**
 
 ## Download
 
@@ -12,6 +12,8 @@ Sakura by **SoulOfSwords** supports PMX, VRM and Live2D avatars on Windows, with
 - [2.0 release notes and checksums](https://github.com/soulofswords/Sakura-Downloads/releases/tag/v2.0)
 
 ## What changed in 2.0
+
+- 4 November Companion installer refresh removes duplicate Windows prompts in Full access.
 
 - Companion installer now included: Companion chat, tracking mode and Agent workspace in one edition.
 - Voice & speech has optional enrolment for up to five locally encrypted speaker profiles, including Rename and Remove. Voice matching is experimental; it is not identity authentication.

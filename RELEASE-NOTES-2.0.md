@@ -1,8 +1,11 @@
 # Sakura Companion, VTuber and Mobile 2.0
 
-Updated 3 November 2026. Stable release; Companion now joins the existing VTuber installer and Mobile APK under the same 2.0 release.
+Updated 4 November 2026. Stable release; Companion now joins the existing VTuber installer and Mobile APK under the same 2.0 release.
 
 ## Companion additions and fixes
+
+- Companion installer refreshed on 4 November: selecting Full access and running tasks under it no longer shows duplicate Windows confirmation dialogs. Full access remains session-only and keeps workspace validation.
+- Clean-checkout GitHub Actions packaging checks no longer require downloaded speech weights or compiled camera DLLs; actual installer builds still verify both.
 
 - Voice & speech → Recognised voices: record a short sentence, save up to five named voice profiles, rename profiles and remove them. The optional CPU recognition runtime is a separate download. Enrolled profiles filter browser microphone transcription and native wake commands; similarity is experimental and cannot prove identity. No speaker recordings or profiles are bundled.
 - The compact mic, chat mic and main listening control share one state. Turning off wake listening does not start continuous recording. Changing window size no longer stops an active conversation.
