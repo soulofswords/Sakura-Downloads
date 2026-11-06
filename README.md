@@ -2,7 +2,7 @@
 
 Sakura by **SoulOfSwords** supports PMX, VRM and Live2D avatars on Windows, with a companion Android app for phone tracking and controls.
 
-**Updated: 4 November 2026** · **Latest Companion, VTuber and Mobile release: 2.0**
+**Updated: 6 November 2026** · **Latest Companion, VTuber and Mobile release: 2.0**
 
 ## Download
 
@@ -12,6 +12,10 @@ Sakura by **SoulOfSwords** supports PMX, VRM and Live2D avatars on Windows, with
 - [2.0 release notes and checksums](https://github.com/soulofswords/Sakura-Downloads/releases/tag/v2.0)
 
 ## What changed in 2.0
+
+- 6 November desktop refresh includes PMX/VRM Model Settings recovery at full browser storage, cursor gaze relative to the avatar and current window, and a red halo for enabled microphone controls.
+- Companion adds pronunciation rules, per-avatar emotion/motion banks, optional dialogue roles and coaching, reviewed MQTT actions, and manually marked furniture and walking routes in imported PMX rooms. Capabilities depend on configured models, speech engines and hardware.
+- The signed-in cloud model browser retains nested folders and rotating PMX previews. Grok–Ms.Ani is available under random model.
 
 - 4 November audited installer refresh: game-first 2B startup with VRAM checks, a persistent Voice matching On/Off switch, and Companion Teacher task controls with reviewed task-webpage interaction.
 - Closed task webpages clear stale controls. Release packaging excludes development-only scripts and checks for source changes during the build. Both Windows installers are verified before replacing the 2.0 downloads.
@@ -31,6 +35,10 @@ Sakura by **SoulOfSwords** supports PMX, VRM and Live2D avatars on Windows, with
 - VTuber and Android version labels now show **2.0**.
 
 Standalone VTuber provides avatar tracking, customization, streaming output, Chat Reader and voice-changing tools. Companion AI and Agent tasks are separate features of the Companion edition; they are not enabled in standalone VTuber.
+
+## Known issues in this refresh
+
+The current independent audit confirms twelve memory/parser defects, including credential admission, incomplete redaction and memory correction/retention errors. These remain open. Avoid putting credentials in chat or saved memories. See the release notes for the scope and testing limits.
 
 ## Before installing
 
