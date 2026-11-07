@@ -2,7 +2,7 @@
 
 Sakura by **SoulOfSwords** supports PMX, VRM and Live2D avatars on Windows, with a companion Android app for phone tracking and controls.
 
-**Updated: 6 November 2026** · **Latest Companion, VTuber and Mobile release: 2.0**
+**Updated: 7 November 2026** · **Latest Companion, VTuber and Mobile release: 2.0**
 
 ## Download
 
@@ -12,6 +12,8 @@ Sakura by **SoulOfSwords** supports PMX, VRM and Live2D avatars on Windows, with
 - [2.0 release notes and checksums](https://github.com/soulofswords/Sakura-Downloads/releases/tag/v2.0)
 
 ## What changed in 2.0
+
+- 7 November desktop security refresh fixes the twelve reported memory/parser defects. The refreshed installers include credential admission and redaction repairs, safe fact corrections/retirement, bounded source JSON and character-card parsing, and reduced embedding work. Desktop follow-up conversations and stop/wait interruption fixes are also included.
 
 - 6 November desktop refresh includes PMX/VRM Model Settings recovery at full browser storage, cursor gaze relative to the avatar and current window, and a red halo for enabled microphone controls.
 - Companion adds pronunciation rules, per-avatar emotion/motion banks, optional dialogue roles and coaching, reviewed MQTT actions, and manually marked furniture and walking routes in imported PMX rooms. Capabilities depend on configured models, speech engines and hardware.
@@ -36,9 +38,9 @@ Sakura by **SoulOfSwords** supports PMX, VRM and Live2D avatars on Windows, with
 
 Standalone VTuber provides avatar tracking, customization, streaming output, Chat Reader and voice-changing tools. Companion AI and Agent tasks are separate features of the Companion edition; they are not enabled in standalone VTuber.
 
-## Known issues in this refresh
+## Audit status and remaining limits
 
-The current independent audit confirms twelve memory/parser defects, including credential admission, incomplete redaction and memory correction/retention errors. These remain open. Avoid putting credentials in chat or saved memories. See the release notes for the scope and testing limits.
+The twelve memory/parser findings are fixed in the 7 November Windows refresh. The audit reproductions are enforced during builds, and both extracted installers check the compiled memory code. Earlier deleted or incorrectly merged facts cannot be recovered automatically. Use dedicated settings fields for credentials. Physical microphone, camera, phone and mixed-DPI behavior still need hardware testing. See the release notes and checksums for the exact refreshed downloads.
 
 ## Before installing
 
